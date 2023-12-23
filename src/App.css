@@ -1,27 +1,55 @@
 .App {
-  text-align: center;
+  margin: auto;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.profile{
+  display: flex;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -100px;
+  border: solid #7A7A7A 3px;
+  border-radius: 20px;
+  background-color: white;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+}
+.profile-img{
+  width: 200px;
+  border: solid #E6E9EC 3px;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-top: -100px;
+
+}
+.hero-item{
+  margin: 60px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: url('./assets/images/Wallpaper.png');
+  background-size: cover;
+  min-height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+}
+
+.icon{
+  color: #7A7A7A;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+
+}
+
+.icon:hover{
   color: white;
+  background-color: #FF014F;
 }
 
 .App-link {

@@ -21,7 +21,8 @@
   width: 200px;
   border: solid #E6E9EC 3px;
   border-radius: 20px;
-  margin-left: 40px;
+  margin-left: 35px;
+  margin: 35px;
   margin-top: -100px;
 
 }
@@ -39,18 +40,101 @@
 
 }
 
-.icon{
+.hero-icon{
   color: #7A7A7A;
   height: 20px;
   width: 20px;
   margin-right: 10px;
+  transition: transform 0.3s ease;
 
 }
 
-.icon:hover{
+.hero-icon:hover{
   color: white;
   background-color: #FF014F;
 }
+
+.about-container{
+  margin-left: auto;
+  width: 70%;
+  padding: 30px;
+  margin-top: 60px;
+  border: solid #7A7A7A 3px;
+  border-radius: 30px;
+
+}
+.about-content{
+  display: flex;
+
+}
+
+.service-container{
+  display: grid;
+  width: 70%;
+  border: solid #7A7A7A 3px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-right: 0px;
+  padding: 30px;
+
+
+
+}
+.service-content-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-left: auto;
+  padding: auto;
+  padding: 30px;
+  margin: 20px;
+
+
+}
+
+.service-content{
+  margin: auto;
+padding: 30px;
+
+}
+
+
+.icon{
+  height: 40px;
+  width: 30px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.bg-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FF014F;
+}
+
+.progress-bar{
+  width: 0;
+  height: 20px;
+  background-color: #FF014F;
+  transition: width 0.5s ease-in-out;
+}
+.progress-container{
+  width: 100%;
+  margin: 20px auto;
+  border: solid #7a7a7a;
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+
 
 .App-link {
   color: #61dafb;

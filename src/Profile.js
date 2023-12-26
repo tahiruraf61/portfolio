@@ -18,17 +18,17 @@ const Profile = () => {
                 <div className="hero-item">
                 <h3>Tahiru Rafiu</h3>
                 <h5>I'm a front-end developer</h5>
-                <FaFacebook className="icon"/> <FaXTwitter className="icon"/> <FaWhatsapp  className="icon"/>
+                <FaFacebook className="hero-icon"/> <FaXTwitter className="hero-icon"/> <FaWhatsapp  className="hero-icon"/>
                 </div>
 
                 <div className="hero-item">
-                <h3><FaUserTie className="icon" /> 21st December, 2023</h3>
-                <h5><FaLocationDot className="icon"/> Tamale-Ghana</h5>
+                <h3><FaUserTie className="hero-icon" /> 21st December, 2023</h3>
+                <h5><FaLocationDot className="hero-icon"/> Tamale-Ghana</h5>
                 </div>
 
                 <div className="hero-item">
-                <h3><FaUserTie className="icon" /> 21st December, 2023</h3>
-                <h5><FaLocationDot className="icon"/> Tamale-Ghana</h5>
+                <h3><FaUserTie className="hero-icon" /> 21st December, 2023</h3>
+                <h5><FaLocationDot className="hero-icon"/> Tamale-Ghana</h5>
                 </div>
             </div>
     )

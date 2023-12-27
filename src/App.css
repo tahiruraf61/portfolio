@@ -45,7 +45,7 @@
   height: 20px;
   width: 20px;
   margin-right: 10px;
-  transition: transform 0.3s ease;
+  transition: transform 1.5s ease;
 
 }
 
@@ -132,6 +132,16 @@ padding: 30px;
   border: solid #7a7a7a;
   border-radius: 1px;
   overflow: hidden;
+}
+
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolio-img{
+  width: 400px;
+  margin: 30px;
 }
 
 

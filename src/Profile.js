@@ -16,19 +16,19 @@ const Profile = () => {
                 </div>
 
                 <div className="hero-item">
-                <h3>Tahiru Rafiu</h3>
-                <h5>I'm a front-end developer</h5>
+                <h3 style={{color: '#54595F' }}>Tahiru Rafiu</h3>
+                <h5 style={{color: '#54595F' }}>I'm a front-end developer</h5>
                 <FaFacebook className="hero-icon"/> <FaXTwitter className="hero-icon"/> <FaWhatsapp  className="hero-icon"/>
                 </div>
 
                 <div className="hero-item">
-                <h3><FaUserTie className="hero-icon" /> 21st December, 2023</h3>
-                <h5><FaLocationDot className="hero-icon"/> Tamale-Ghana</h5>
+                <h3 style={{color: '#54595F' }}><FaUserTie className="hero-icon" /> 21st December, 2023</h3>
+                <h5 style={{color: '#54595F' }}><FaLocationDot className="hero-icon"/> Tamale-Ghana</h5>
                 </div>
 
                 <div className="hero-item">
-                <h3><FaUserTie className="hero-icon" /> 21st December, 2023</h3>
-                <h5><FaLocationDot className="hero-icon"/> Tamale-Ghana</h5>
+                <h3 style={{color: '#54595F' }}><FaUserTie className="hero-icon" /> 21st December, 2023</h3>
+                <h5 style={{color: '#54595F' }}><FaLocationDot className="hero-icon"/> Tamale-Ghana</h5>
                 </div>
             </div>
     )

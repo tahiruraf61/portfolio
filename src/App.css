@@ -1,5 +1,12 @@
 .App {
-  margin: auto;
+
+    height: 100vh;
+    margin: auto;
+}
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .App-logo {
@@ -31,6 +38,7 @@
 }
 
 .App-header {
+  flex: 0 0 20%;
   background-image: url('./assets/images/Wallpaper.png');
   background-size: cover;
   min-height: 400px;
@@ -68,7 +76,7 @@
 
 }
 
-.service-container{
+.global-container{
   display: grid;
   width: 70%;
   border: solid #7A7A7A 3px;
@@ -144,17 +152,62 @@ padding: 30px;
   margin: 30px;
 }
 
-
-
-.App-link {
-  color: #61dafb;
+form{
+  display: grid;
+  max-width: 500px;
+  padding:70px;
+  gap : 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formInput{
+   height: 30px;
+   border: 2px solid #7A7A7A;
+   border-radius: 3px;
 }
+
+
+.inputText{
+   height: 200px;
+   border: 2px solid #7A7A7A;
+   border-radius: 3px;
+}
+
+.btn{
+  font-size: medium;
+  padding: 10px;
+  background-color: #FF014F;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 20%;
+  margin-top: 40px;
+}
+
+
+.nav-item:hover,
+.nav-item.active {
+  background-color: #eee;
+  color: #fff;
+}
+
+.sidebar {
+  position: relative;
+  top: 300px;
+  width: 200px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.nav-item {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+

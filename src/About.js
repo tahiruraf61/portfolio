@@ -24,7 +24,7 @@ const About = () => {
                 <h4><FaCheck /> Front-end developer</h4>
                 <h4><FaCheck /> 24/7 service support</h4>
                 <h4><FaCheck /> Unlimited revision</h4>
-                <button>Get in touch</button>
+                <button type='submit' className='btn'>Get in touch</button>
             </div>
             </div>
             <h1 style={{textAlign:'center'}}>My skills</h1>

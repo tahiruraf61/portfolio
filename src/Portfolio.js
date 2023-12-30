@@ -1,7 +1,7 @@
 const Portfolio = () => {
     return(
         <>
-        <div className='service-container'>
+        <div className='global-container'>
         <h1 style={{textAlign:'center'}}>My work</h1>
         <div className="img-container">
             <div>

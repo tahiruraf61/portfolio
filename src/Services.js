@@ -6,7 +6,7 @@ import { FaUserGraduate } from "react-icons/fa";
 const Services = () => {
     return(
         <>
-        <div className="global-container">
+        <div className="global-container" style={{backgroundColor:'#ffffff'}}>
             <h1 style={{textAlign:'center'}}>What I do best</h1>
         <div className="service-content-container">
 

@@ -7,21 +7,21 @@ import Services from './Services';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Sidebar from './Sidebar';
+import Footer from './Footer';
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-       <Sidebar />
-
-     <Routes>
+      <Sidebar />
+  <Routes>
      < Route path="/" element={<About /> } />
      <Route path="/services" element={<Services />} />
      <Route path="/portfolio" element={<Portfolio />} />
      <Route path="contact" element={<Contact />} />
-     </Routes>
-
+  </Routes>
+  <Footer />
     </div>
   );
 }

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
     const [firstName, setFirstName] = useState('');
@@ -27,9 +29,10 @@ const Contact = () => {
     }
     return(
         <>
-        <div className="global-container">
+        <div className="global-container" style={{backgroundColor:'#f8e60c'}}>
         <div className="form-container">
-        <form method="post" onSubmit={handleSubmit}>
+        <h1 style={{textAlign: 'center', fontSize: '45px',display: 'flex' ,justifyContent: 'center', alignItems: 'center' }}>Get in touch<br/> with us.</h1>
+        <form method="post" onSubmit={handleSubmit} style={{backgroundColor: '#ffffff'}}>
             <label htmlFor="firstName">First name</label>
             <input
                type="text"
@@ -80,6 +83,28 @@ const Contact = () => {
         <button type="submit" className="btn">Submit</button>
 
         </form>
+        <div style={{marginLeft: '80px', marginTop: '30px', padding: '30px'}}>
+            <h1>HAVE A QUESTION?<br/> CONTACT US</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Ut elit tellus,
+            luctus nec ullamcorper mattis,<br/>
+            pulvinar dapibus leo</p>
+
+            <h2 style={{marginTop: '80px'}}>Send us<br/> an email</h2>
+            <div className="bg-icon2">
+            <MdOutlineMailOutline  className="icon2"/>
+             </div>
+           <h4>mypodcast@gmail.com</h4>
+           <h4>podcast@mail.com</h4>
+
+           <div className="bg-icon2">
+           <FaPhoneAlt className="icon2" />
+           </div>
+           <div>
+           <h2>Call us</h2>
+           <h4>+233-444-222</h4>
+           <h4>+233-555-777</h4>
+           </div>
+        </div>
         </div>
         </div>
 

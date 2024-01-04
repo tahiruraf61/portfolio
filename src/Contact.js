@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="form-container">
         <h1 style={{textAlign: 'center', fontSize: '45px',display: 'flex' ,justifyContent: 'center', alignItems: 'center' }}>Get in touch<br/> with us.</h1>
         <form method="post" onSubmit={handleSubmit} style={{backgroundColor: '#ffffff'}}>
-            <label htmlFor="firstName">First name</label>
+            <label htmlFor="firstName">First name<sup>*</sup></label>
             <input
                type="text"
                name="firstName"
@@ -45,7 +45,7 @@ const Contact = () => {
                   placeholder="First name"
                />
 
-            <label htmlFor="lastName">Last name</label>
+            <label htmlFor="lastName">Last name<sup>*</sup></label>
             <input
                   type="text"
                   name="lastName"
@@ -57,7 +57,7 @@ const Contact = () => {
                   placeholder="Last name"
             />
 
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email<sup>*</sup></label>
             <input
                   type="email"
                   name="email"
@@ -68,7 +68,7 @@ const Contact = () => {
                   className="formInput"
                   placeholder="Email"
                   />
-        <label htmlFor="message">Message</label><br/>
+        <label htmlFor="message">Message<sup>*</sup></label><br/>
         <textarea
         name="message"
         id="message"
@@ -87,7 +87,7 @@ const Contact = () => {
             <h1>HAVE A QUESTION?<br/> CONTACT US</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Ut elit tellus,
             luctus nec ullamcorper mattis,<br/>
-            pulvinar dapibus leo</p>
+            pulvinar dapibus leo.</p>
 
             <h2 style={{marginTop: '80px'}}>Send us<br/> an email</h2>
             <div className="bg-icon2">

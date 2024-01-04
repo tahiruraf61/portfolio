@@ -69,7 +69,7 @@ body, html{
   background-color: #ffffff;
   width: 70%;
   margin-left: auto;
-  margin-top: 60px;
+  margin-top: -350px;
   border: solid #7A7A7A 3px;
   border-radius: 30px;
 
@@ -96,29 +96,29 @@ body, html{
 .global-container{
   display: grid;
   width: 70%;
+  min-height: 600px;
   border: solid #7A7A7A 3px;
   border-radius: 30px;
   margin-left: auto;
-  margin-top: 40px;
+  margin-top: -350px;
   margin-right: 10px;
   padding: 30px;
-
-
-
 }
+
+
 .service-content-container{
+  min-height: 900px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   margin-left: auto;
   padding: auto;
-  padding: 30px;
-  margin: 20px;
-
+  padding: 60px;
+  margin: 10px;
 }
 
 .service-content{
-  padding: 30px;
+  padding: 50px;
   border: solid 1px #f0ebeb;
   border-radius: 10px;
   margin: 20px;
@@ -132,8 +132,6 @@ body, html{
   color: #1a1a1a;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .bg-icon{
@@ -151,7 +149,6 @@ body, html{
   width: 30px;
   align-items: center;
   justify-content: center;
-
 }
 
 .bg-icon2{
@@ -167,6 +164,7 @@ body, html{
    color: #E6E9EC;
 
 }
+
 .bg-icon2:hover{
   color: #E6E9EC;
   background-color: #e131ff;
@@ -218,6 +216,10 @@ form{
    border-radius: 3px;
 }
 
+sup{
+  color: red
+}
+
 .btn{
   font-size: medium;
   padding: 20px;
@@ -251,9 +253,9 @@ nav {
 }
 
 .sidebar {
-  position: relative;
+  position:relative;
   top: 0;
-  width: 200px;
+  width: 150px;
   padding: 20px;
   background-color: #1b1c1e;
   border: solid 2px #ffffff ;
@@ -273,4 +275,20 @@ nav {
   text-decoration: none;
   transition: background-color 0.3s;
 }
+
+.footer-container{
+  background-image: url('./assets/images/contact7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #E6E9EC;
+  display: grid;
+  width: 70%;
+  border: solid #7A7A7A 3px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-right: 10px;
+  padding: 30px;
+}
+
 

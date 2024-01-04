@@ -1,9 +1,9 @@
 const Footer = () => {
     return(
         <>
-        <div className="global-container">
+        <div className="footer-container" >
             <div className="footer-item">
-                <h6>footer</h6>
+                <h4 >copyright@2024</h4>
             </div>
         </div>
 

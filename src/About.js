@@ -20,7 +20,7 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Ut elit tellus,
                 luctus nec ullamcorper mattis,<br/> pulvinar dapibus leo. Lorem ipsum dolor sit amet,<br/>
                 consectetur adipiscing elit. Ut elit tellus,<br/> luctus nec ullamcorper mattis,
-                pulvinar dapibus leo.<br/>Lorem ipsum dolor sit amet, consectetur</p>
+                pulvinar dapibus leo.<br/>Lorem ipsum dolor sit amet, consectetur.</p>
                 <h4><FaCheck /> Front-end developer</h4>
                 <h4><FaCheck /> 24/7 service support</h4>
                 <h4><FaCheck /> Unlimited revision</h4>

@@ -44,7 +44,7 @@ const Services = () => {
                 <div className="bg-icon">
                 <FaUserGraduate  className="icon"/>
                 </div>
-                <h3>Web developement</h3>
+                <h3>Web maintenance</h3>
                 <p>Lorem ipsum dolor sit amet,<br/> consectetur
                  adipiscing elit.<br/> Ut elit tellus, luctus nec ullam<br/>corper mattis,
                  pulvinar dapibus leo.</p>

@@ -1,9 +1,14 @@
 import React from 'react'
+import {useNavigate} from 'react-router-dom';
 import { FaCheck } from "react-icons/fa6";
 import { FaArrowUpRightDots } from "react-icons/fa6";
 import { FaRegEye } from "react-icons/fa";
 
 const About = () => {
+    const navigate = useNavigate();
+    const handleClick = () =>{
+        navigate ('./contact')
+    }
     return(
         <>
         <div className='about-container'>
@@ -24,9 +29,10 @@ const About = () => {
                 <h4><FaCheck /> Front-end developer</h4>
                 <h4><FaCheck /> 24/7 service support</h4>
                 <h4><FaCheck /> Unlimited revision</h4>
-                <button type='submit' className='btn1'>Get in touch</button>
+                <button onClick={handleClick} className='btn1'>Get in touch</button>
             </div>
             </div>
+
             <h1 style={{textAlign:'center',color: '#1a1a1a'}}>My skills</h1>
     <div>
      <h4 style={{marginBottom: '-40px' , color: '#1a1a1a'}}>Web design</h4>
